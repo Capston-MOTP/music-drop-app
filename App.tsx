@@ -90,7 +90,7 @@ function App(): React.JSX.Element {
       <WebView
         ref={webViewRef}
         style={styles.webview}
-        source={{uri: 'http://192.168.0.12:5173/'}}
+        source={{uri: 'https://grand-horse-f40585.netlify.app/'}}
         javaScriptEnabled={true}
         geolocationEnabled={true}
         onMessage={handleWebviewMessage}
